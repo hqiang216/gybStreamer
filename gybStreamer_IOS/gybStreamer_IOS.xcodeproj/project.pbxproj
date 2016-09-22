@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0F5A5941D943C0B000C375E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F5A5931D943C0B000C375E /* main.m */; };
+		C0F5A5971D943C0B000C375E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F5A5961D943C0B000C375E /* AppDelegate.m */; };
+		C0F5A59A1D943C0C000C375E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F5A5991D943C0C000C375E /* ViewController.m */; };
+		C0F5A59D1D943C0C000C375E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F5A59B1D943C0C000C375E /* Main.storyboard */; };
+		C0F5A59F1D943C0C000C375E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F5A59E1D943C0C000C375E /* Assets.xcassets */; };
+		C0F5A5A21D943C0C000C375E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F5A5A01D943C0C000C375E /* LaunchScreen.storyboard */; };
+		C0F5A5AD1D943C0C000C375E /* gybStreamer_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F5A5AC1D943C0C000C375E /* gybStreamer_IOSTests.m */; };
+		C0F5A5B81D943C0C000C375E /* gybStreamer_IOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F5A5B71D943C0C000C375E /* gybStreamer_IOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0F5A5A91D943C0C000C375E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0F5A5871D943C0B000C375E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0F5A58E1D943C0B000C375E;
+			remoteInfo = gybStreamer_IOS;
+		};
+		C0F5A5B41D943C0C000C375E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0F5A5871D943C0B000C375E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0F5A58E1D943C0B000C375E;
+			remoteInfo = gybStreamer_IOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0F5A58F1D943C0B000C375E /* gybStreamer_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gybStreamer_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F5A5931D943C0B000C375E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0F5A5951D943C0B000C375E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0F5A5961D943C0B000C375E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0F5A5981D943C0C000C375E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0F5A5991D943C0C000C375E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0F5A59C1D943C0C000C375E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0F5A59E1D943C0C000C375E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0F5A5A11D943C0C000C375E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0F5A5A31D943C0C000C375E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F5A5A81D943C0C000C375E /* gybStreamer_IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gybStreamer_IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F5A5AC1D943C0C000C375E /* gybStreamer_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gybStreamer_IOSTests.m; sourceTree = "<group>"; };
+		C0F5A5AE1D943C0C000C375E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F5A5B31D943C0C000C375E /* gybStreamer_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gybStreamer_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F5A5B71D943C0C000C375E /* gybStreamer_IOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gybStreamer_IOSUITests.m; sourceTree = "<group>"; };
+		C0F5A5B91D943C0C000C375E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0F5A58C1D943C0B000C375E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F5A5A51D943C0C000C375E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F5A5B01D943C0C000C375E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0F5A5861D943C0B000C375E = {
+			isa = PBXGroup;
+			children = (
+				C0F5A5911D943C0B000C375E /* gybStreamer_IOS */,
+				C0F5A5AB1D943C0C000C375E /* gybStreamer_IOSTests */,
+				C0F5A5B61D943C0C000C375E /* gybStreamer_IOSUITests */,
+				C0F5A5901D943C0B000C375E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0F5A5901D943C0B000C375E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0F5A58F1D943C0B000C375E /* gybStreamer_IOS.app */,
+				C0F5A5A81D943C0C000C375E /* gybStreamer_IOSTests.xctest */,
+				C0F5A5B31D943C0C000C375E /* gybStreamer_IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0F5A5911D943C0B000C375E /* gybStreamer_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				C0F5A5951D943C0B000C375E /* AppDelegate.h */,
+				C0F5A5961D943C0B000C375E /* AppDelegate.m */,
+				C0F5A5981D943C0C000C375E /* ViewController.h */,
+				C0F5A5991D943C0C000C375E /* ViewController.m */,
+				C0F5A59B1D943C0C000C375E /* Main.storyboard */,
+				C0F5A59E1D943C0C000C375E /* Assets.xcassets */,
+				C0F5A5A01D943C0C000C375E /* LaunchScreen.storyboard */,
+				C0F5A5A31D943C0C000C375E /* Info.plist */,
+				C0F5A5921D943C0B000C375E /* Supporting Files */,
+			);
+			path = gybStreamer_IOS;
+			sourceTree = "<group>";
+		};
+		C0F5A5921D943C0B000C375E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0F5A5931D943C0B000C375E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0F5A5AB1D943C0C000C375E /* gybStreamer_IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0F5A5AC1D943C0C000C375E /* gybStreamer_IOSTests.m */,
+				C0F5A5AE1D943C0C000C375E /* Info.plist */,
+			);
+			path = gybStreamer_IOSTests;
+			sourceTree = "<group>";
+		};
+		C0F5A5B61D943C0C000C375E /* gybStreamer_IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0F5A5B71D943C0C000C375E /* gybStreamer_IOSUITests.m */,
+				C0F5A5B91D943C0C000C375E /* Info.plist */,
+			);
+			path = gybStreamer_IOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0F5A58E1D943C0B000C375E /* gybStreamer_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F5A5BC1D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamer_IOS" */;
+			buildPhases = (
+				C0F5A58B1D943C0B000C375E /* Sources */,
+				C0F5A58C1D943C0B000C375E /* Frameworks */,
+				C0F5A58D1D943C0B000C375E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gybStreamer_IOS;
+			productName = gybStreamer_IOS;
+			productReference = C0F5A58F1D943C0B000C375E /* gybStreamer_IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0F5A5A71D943C0C000C375E /* gybStreamer_IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F5A5BF1D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamer_IOSTests" */;
+			buildPhases = (
+				C0F5A5A41D943C0C000C375E /* Sources */,
+				C0F5A5A51D943C0C000C375E /* Frameworks */,
+				C0F5A5A61D943C0C000C375E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0F5A5AA1D943C0C000C375E /* PBXTargetDependency */,
+			);
+			name = gybStreamer_IOSTests;
+			productName = gybStreamer_IOSTests;
+			productReference = C0F5A5A81D943C0C000C375E /* gybStreamer_IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0F5A5B21D943C0C000C375E /* gybStreamer_IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F5A5C21D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamer_IOSUITests" */;
+			buildPhases = (
+				C0F5A5AF1D943C0C000C375E /* Sources */,
+				C0F5A5B01D943C0C000C375E /* Frameworks */,
+				C0F5A5B11D943C0C000C375E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0F5A5B51D943C0C000C375E /* PBXTargetDependency */,
+			);
+			name = gybStreamer_IOSUITests;
+			productName = gybStreamer_IOSUITests;
+			productReference = C0F5A5B31D943C0C000C375E /* gybStreamer_IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0F5A5871D943C0B000C375E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "yb Gao";
+				TargetAttributes = {
+					C0F5A58E1D943C0B000C375E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X66UE8SGF3;
+					};
+					C0F5A5A71D943C0C000C375E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FY72UAG3T4;
+						TestTargetID = C0F5A58E1D943C0B000C375E;
+					};
+					C0F5A5B21D943C0C000C375E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FY72UAG3T4;
+						TestTargetID = C0F5A58E1D943C0B000C375E;
+					};
+				};
+			};
+			buildConfigurationList = C0F5A58A1D943C0B000C375E /* Build configuration list for PBXProject "gybStreamer_IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0F5A5861D943C0B000C375E;
+			productRefGroup = C0F5A5901D943C0B000C375E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0F5A58E1D943C0B000C375E /* gybStreamer_IOS */,
+				C0F5A5A71D943C0C000C375E /* gybStreamer_IOSTests */,
+				C0F5A5B21D943C0C000C375E /* gybStreamer_IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0F5A58D1D943C0B000C375E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F5A5A21D943C0C000C375E /* LaunchScreen.storyboard in Resources */,
+				C0F5A59F1D943C0C000C375E /* Assets.xcassets in Resources */,
+				C0F5A59D1D943C0C000C375E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F5A5A61D943C0C000C375E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F5A5B11D943C0C000C375E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0F5A58B1D943C0B000C375E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F5A59A1D943C0C000C375E /* ViewController.m in Sources */,
+				C0F5A5971D943C0B000C375E /* AppDelegate.m in Sources */,
+				C0F5A5941D943C0B000C375E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F5A5A41D943C0C000C375E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F5A5AD1D943C0C000C375E /* gybStreamer_IOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F5A5AF1D943C0C000C375E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F5A5B81D943C0C000C375E /* gybStreamer_IOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0F5A5AA1D943C0C000C375E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0F5A58E1D943C0B000C375E /* gybStreamer_IOS */;
+			targetProxy = C0F5A5A91D943C0C000C375E /* PBXContainerItemProxy */;
+		};
+		C0F5A5B51D943C0C000C375E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0F5A58E1D943C0B000C375E /* gybStreamer_IOS */;
+			targetProxy = C0F5A5B41D943C0C000C375E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0F5A59B1D943C0C000C375E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0F5A59C1D943C0C000C375E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0F5A5A01D943C0C000C375E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0F5A5A11D943C0C000C375E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0F5A5BA1D943C0C000C375E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0F5A5BB1D943C0C000C375E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0F5A5BD1D943C0C000C375E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = gybStreamer_IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gyb.com.gybStreamer-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0F5A5BE1D943C0C000C375E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = gybStreamer_IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gyb.com.gybStreamer-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0F5A5C01D943C0C000C375E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gybStreamer_IOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gyb.com.gybStreamer-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gybStreamer_IOS.app/gybStreamer_IOS";
+			};
+			name = Debug;
+		};
+		C0F5A5C11D943C0C000C375E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gybStreamer_IOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gyb.com.gybStreamer-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gybStreamer_IOS.app/gybStreamer_IOS";
+			};
+			name = Release;
+		};
+		C0F5A5C31D943C0C000C375E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gybStreamer_IOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gyb.com.gybStreamer-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gybStreamer_IOS;
+			};
+			name = Debug;
+		};
+		C0F5A5C41D943C0C000C375E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gybStreamer_IOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gyb.com.gybStreamer-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gybStreamer_IOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0F5A58A1D943C0B000C375E /* Build configuration list for PBXProject "gybStreamer_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F5A5BA1D943C0C000C375E /* Debug */,
+				C0F5A5BB1D943C0C000C375E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F5A5BC1D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamer_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F5A5BD1D943C0C000C375E /* Debug */,
+				C0F5A5BE1D943C0C000C375E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0F5A5BF1D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamer_IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F5A5C01D943C0C000C375E /* Debug */,
+				C0F5A5C11D943C0C000C375E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0F5A5C21D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamer_IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F5A5C31D943C0C000C375E /* Debug */,
+				C0F5A5C41D943C0C000C375E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0F5A5871D943C0B000C375E /* Project object */;
+}
