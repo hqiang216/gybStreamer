@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C0F5A58E1D943C0B000C375E"
-               BuildableName = "gybStreamer_IOS.app"
-               BlueprintName = "gybStreamer_IOS"
-               ReferencedContainer = "container:gybStreamer_IOS.xcodeproj">
+               BuildableName = "gybStreamer.app"
+               BlueprintName = "gybStreamer"
+               ReferencedContainer = "container:gybStreamer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C0F5A5A71D943C0C000C375E"
-               BuildableName = "gybStreamer_IOSTests.xctest"
-               BlueprintName = "gybStreamer_IOSTests"
-               ReferencedContainer = "container:gybStreamer_IOS.xcodeproj">
+               BuildableName = "gybStreamer.xctest"
+               BlueprintName = "gybStreamerTests"
+               ReferencedContainer = "container:gybStreamer.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C0F5A5B21D943C0C000C375E"
-               BuildableName = "gybStreamer_IOSUITests.xctest"
-               BlueprintName = "gybStreamer_IOSUITests"
-               ReferencedContainer = "container:gybStreamer_IOS.xcodeproj">
+               BuildableName = "gybStreamer.xctest"
+               BlueprintName = "gybStreamerUITests"
+               ReferencedContainer = "container:gybStreamer.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0F5A58E1D943C0B000C375E"
-            BuildableName = "gybStreamer_IOS.app"
-            BlueprintName = "gybStreamer_IOS"
-            ReferencedContainer = "container:gybStreamer_IOS.xcodeproj">
+            BuildableName = "gybStreamer.app"
+            BlueprintName = "gybStreamer"
+            ReferencedContainer = "container:gybStreamer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0F5A58E1D943C0B000C375E"
-            BuildableName = "gybStreamer_IOS.app"
-            BlueprintName = "gybStreamer_IOS"
-            ReferencedContainer = "container:gybStreamer_IOS.xcodeproj">
+            BuildableName = "gybStreamer.app"
+            BlueprintName = "gybStreamer"
+            ReferencedContainer = "container:gybStreamer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0F5A58E1D943C0B000C375E"
-            BuildableName = "gybStreamer_IOS.app"
-            BlueprintName = "gybStreamer_IOS"
-            ReferencedContainer = "container:gybStreamer_IOS.xcodeproj">
+            BuildableName = "gybStreamer.app"
+            BlueprintName = "gybStreamer"
+            ReferencedContainer = "container:gybStreamer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

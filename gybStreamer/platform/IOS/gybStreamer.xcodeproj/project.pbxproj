@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C0F5A58F1D943C0B000C375E /* gybStreamer_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gybStreamer_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F5A58F1D943C0B000C375E /* gybStreamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gybStreamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F5A5931D943C0B000C375E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0F5A5951D943C0B000C375E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0F5A5961D943C0B000C375E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,10 +45,10 @@
 		C0F5A59E1D943C0C000C375E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0F5A5A11D943C0C000C375E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0F5A5A31D943C0C000C375E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0F5A5A81D943C0C000C375E /* gybStreamer_IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gybStreamer_IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F5A5A81D943C0C000C375E /* gybStreamer.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gybStreamer.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F5A5AC1D943C0C000C375E /* gybStreamer_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gybStreamer_IOSTests.m; sourceTree = "<group>"; };
 		C0F5A5AE1D943C0C000C375E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0F5A5B31D943C0C000C375E /* gybStreamer_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gybStreamer_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F5A5B31D943C0C000C375E /* gybStreamer.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gybStreamer.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F5A5B71D943C0C000C375E /* gybStreamer_IOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gybStreamer_IOSUITests.m; sourceTree = "<group>"; };
 		C0F5A5B91D943C0C000C375E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,9 +81,9 @@
 		C0F5A5861D943C0B000C375E = {
 			isa = PBXGroup;
 			children = (
-				C0F5A5911D943C0B000C375E /* gybStreamer_IOS */,
-				C0F5A5AB1D943C0C000C375E /* gybStreamer_IOSTests */,
-				C0F5A5B61D943C0C000C375E /* gybStreamer_IOSUITests */,
+				C0F5A5911D943C0B000C375E /* gybStreamer */,
+				C0F5A5AB1D943C0C000C375E /* gybStreamerTests */,
+				C0F5A5B61D943C0C000C375E /* gybStreamerUITests */,
 				C0F5A5901D943C0B000C375E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +91,14 @@
 		C0F5A5901D943C0B000C375E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0F5A58F1D943C0B000C375E /* gybStreamer_IOS.app */,
-				C0F5A5A81D943C0C000C375E /* gybStreamer_IOSTests.xctest */,
-				C0F5A5B31D943C0C000C375E /* gybStreamer_IOSUITests.xctest */,
+				C0F5A58F1D943C0B000C375E /* gybStreamer.app */,
+				C0F5A5A81D943C0C000C375E /* gybStreamer.xctest */,
+				C0F5A5B31D943C0C000C375E /* gybStreamer.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0F5A5911D943C0B000C375E /* gybStreamer_IOS */ = {
+		C0F5A5911D943C0B000C375E /* gybStreamer */ = {
 			isa = PBXGroup;
 			children = (
 				C0F5A5951D943C0B000C375E /* AppDelegate.h */,
@@ -111,6 +111,7 @@
 				C0F5A5A31D943C0C000C375E /* Info.plist */,
 				C0F5A5921D943C0B000C375E /* Supporting Files */,
 			);
+			name = gybStreamer;
 			path = gybStreamer_IOS;
 			sourceTree = "<group>";
 		};
@@ -122,30 +123,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C0F5A5AB1D943C0C000C375E /* gybStreamer_IOSTests */ = {
+		C0F5A5AB1D943C0C000C375E /* gybStreamerTests */ = {
 			isa = PBXGroup;
 			children = (
 				C0F5A5AC1D943C0C000C375E /* gybStreamer_IOSTests.m */,
 				C0F5A5AE1D943C0C000C375E /* Info.plist */,
 			);
+			name = gybStreamerTests;
 			path = gybStreamer_IOSTests;
 			sourceTree = "<group>";
 		};
-		C0F5A5B61D943C0C000C375E /* gybStreamer_IOSUITests */ = {
+		C0F5A5B61D943C0C000C375E /* gybStreamerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				C0F5A5B71D943C0C000C375E /* gybStreamer_IOSUITests.m */,
 				C0F5A5B91D943C0C000C375E /* Info.plist */,
 			);
+			name = gybStreamerUITests;
 			path = gybStreamer_IOSUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C0F5A58E1D943C0B000C375E /* gybStreamer_IOS */ = {
+		C0F5A58E1D943C0B000C375E /* gybStreamer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0F5A5BC1D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamer_IOS" */;
+			buildConfigurationList = C0F5A5BC1D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamer" */;
 			buildPhases = (
 				C0F5A58B1D943C0B000C375E /* Sources */,
 				C0F5A58C1D943C0B000C375E /* Frameworks */,
@@ -155,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = gybStreamer_IOS;
+			name = gybStreamer;
 			productName = gybStreamer_IOS;
-			productReference = C0F5A58F1D943C0B000C375E /* gybStreamer_IOS.app */;
+			productReference = C0F5A58F1D943C0B000C375E /* gybStreamer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C0F5A5A71D943C0C000C375E /* gybStreamer_IOSTests */ = {
+		C0F5A5A71D943C0C000C375E /* gybStreamerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0F5A5BF1D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamer_IOSTests" */;
+			buildConfigurationList = C0F5A5BF1D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamerTests" */;
 			buildPhases = (
 				C0F5A5A41D943C0C000C375E /* Sources */,
 				C0F5A5A51D943C0C000C375E /* Frameworks */,
@@ -173,14 +176,14 @@
 			dependencies = (
 				C0F5A5AA1D943C0C000C375E /* PBXTargetDependency */,
 			);
-			name = gybStreamer_IOSTests;
+			name = gybStreamerTests;
 			productName = gybStreamer_IOSTests;
-			productReference = C0F5A5A81D943C0C000C375E /* gybStreamer_IOSTests.xctest */;
+			productReference = C0F5A5A81D943C0C000C375E /* gybStreamer.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C0F5A5B21D943C0C000C375E /* gybStreamer_IOSUITests */ = {
+		C0F5A5B21D943C0C000C375E /* gybStreamerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0F5A5C21D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamer_IOSUITests" */;
+			buildConfigurationList = C0F5A5C21D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamerUITests" */;
 			buildPhases = (
 				C0F5A5AF1D943C0C000C375E /* Sources */,
 				C0F5A5B01D943C0C000C375E /* Frameworks */,
@@ -191,9 +194,9 @@
 			dependencies = (
 				C0F5A5B51D943C0C000C375E /* PBXTargetDependency */,
 			);
-			name = gybStreamer_IOSUITests;
+			name = gybStreamerUITests;
 			productName = gybStreamer_IOSUITests;
-			productReference = C0F5A5B31D943C0C000C375E /* gybStreamer_IOSUITests.xctest */;
+			productReference = C0F5A5B31D943C0C000C375E /* gybStreamer.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +210,7 @@
 				TargetAttributes = {
 					C0F5A58E1D943C0B000C375E = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = X66UE8SGF3;
+						DevelopmentTeam = FY72UAG3T4;
 					};
 					C0F5A5A71D943C0C000C375E = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -221,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C0F5A58A1D943C0B000C375E /* Build configuration list for PBXProject "gybStreamer_IOS" */;
+			buildConfigurationList = C0F5A58A1D943C0B000C375E /* Build configuration list for PBXProject "gybStreamer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0F5A58E1D943C0B000C375E /* gybStreamer_IOS */,
-				C0F5A5A71D943C0C000C375E /* gybStreamer_IOSTests */,
-				C0F5A5B21D943C0C000C375E /* gybStreamer_IOSUITests */,
+				C0F5A58E1D943C0B000C375E /* gybStreamer */,
+				C0F5A5A71D943C0C000C375E /* gybStreamerTests */,
+				C0F5A5B21D943C0C000C375E /* gybStreamerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -300,12 +303,12 @@
 /* Begin PBXTargetDependency section */
 		C0F5A5AA1D943C0C000C375E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0F5A58E1D943C0B000C375E /* gybStreamer_IOS */;
+			target = C0F5A58E1D943C0B000C375E /* gybStreamer */;
 			targetProxy = C0F5A5A91D943C0C000C375E /* PBXContainerItemProxy */;
 		};
 		C0F5A5B51D943C0C000C375E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0F5A58E1D943C0B000C375E /* gybStreamer_IOS */;
+			target = C0F5A58E1D943C0B000C375E /* gybStreamer */;
 			targetProxy = C0F5A5B41D943C0C000C375E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -419,10 +422,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = gybStreamer_IOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "gyb.com.gybStreamer-IOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = gyb.com.gybStreamer;
+				PRODUCT_NAME = gybStreamer;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -431,10 +436,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = gybStreamer_IOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "gyb.com.gybStreamer-IOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = gyb.com.gybStreamer;
+				PRODUCT_NAME = gybStreamer;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -445,8 +452,8 @@
 				INFOPLIST_FILE = gybStreamer_IOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gyb.com.gybStreamer-IOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gybStreamer_IOS.app/gybStreamer_IOS";
+				PRODUCT_NAME = gybStreamer;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gybStreamer.app/gybStreamer";
 			};
 			name = Debug;
 		};
@@ -457,8 +464,8 @@
 				INFOPLIST_FILE = gybStreamer_IOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gyb.com.gybStreamer-IOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gybStreamer_IOS.app/gybStreamer_IOS";
+				PRODUCT_NAME = gybStreamer;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gybStreamer.app/gybStreamer";
 			};
 			name = Release;
 		};
@@ -468,7 +475,7 @@
 				INFOPLIST_FILE = gybStreamer_IOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gyb.com.gybStreamer-IOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = gybStreamer;
 				TEST_TARGET_NAME = gybStreamer_IOS;
 			};
 			name = Debug;
@@ -479,7 +486,7 @@
 				INFOPLIST_FILE = gybStreamer_IOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gyb.com.gybStreamer-IOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = gybStreamer;
 				TEST_TARGET_NAME = gybStreamer_IOS;
 			};
 			name = Release;
@@ -487,7 +494,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0F5A58A1D943C0B000C375E /* Build configuration list for PBXProject "gybStreamer_IOS" */ = {
+		C0F5A58A1D943C0B000C375E /* Build configuration list for PBXProject "gybStreamer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0F5A5BA1D943C0C000C375E /* Debug */,
@@ -496,29 +503,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0F5A5BC1D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamer_IOS" */ = {
+		C0F5A5BC1D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0F5A5BD1D943C0C000C375E /* Debug */,
 				C0F5A5BE1D943C0C000C375E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C0F5A5BF1D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamer_IOSTests" */ = {
+		C0F5A5BF1D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0F5A5C01D943C0C000C375E /* Debug */,
 				C0F5A5C11D943C0C000C375E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C0F5A5C21D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamer_IOSUITests" */ = {
+		C0F5A5C21D943C0C000C375E /* Build configuration list for PBXNativeTarget "gybStreamerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0F5A5C31D943C0C000C375E /* Debug */,
 				C0F5A5C41D943C0C000C375E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
