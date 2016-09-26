@@ -1,8 +1,8 @@
 //
 //  main.m
-//  gybStreamer_IOS
+//  gybStreamer
 //
-//  Created by yb Gao on 16/9/23.
+//  Created by yb Gao on 16/9/26.
 //  Copyright © 2016年 yb Gao. All rights reserved.
 //
 

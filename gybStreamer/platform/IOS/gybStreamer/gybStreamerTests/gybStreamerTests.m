@@ -1,18 +1,18 @@
 //
-//  gybStreamer_IOSTests.m
-//  gybStreamer_IOSTests
+//  gybStreamerTests.m
+//  gybStreamerTests
 //
-//  Created by yb Gao on 16/9/23.
+//  Created by yb Gao on 16/9/26.
 //  Copyright © 2016年 yb Gao. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface gybStreamer_IOSTests : XCTestCase
+@interface gybStreamerTests : XCTestCase
 
 @end
 
-@implementation gybStreamer_IOSTests
+@implementation gybStreamerTests
 
 - (void)setUp {
     [super setUp];

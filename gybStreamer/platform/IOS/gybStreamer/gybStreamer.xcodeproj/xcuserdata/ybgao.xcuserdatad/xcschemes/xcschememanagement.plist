@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>gybStreamer_IOS.xcscheme</key>
+		<key>gybStreamer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C0F5A58E1D943C0B000C375E</key>
+		<key>C06C09801D997643002D9CBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C0F5A5A71D943C0C000C375E</key>
+		<key>C06C09991D997643002D9CBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C0F5A5B21D943C0C000C375E</key>
+		<key>C06C09A41D997643002D9CBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
